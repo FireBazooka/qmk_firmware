@@ -51,7 +51,7 @@ ________________________________________________________________________________
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC, KC_BSLS,          KC_P7,   KC_P8,   KC_P9,   KC_PMNS,
     KC_CAPS, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT,                    KC_P4,   KC_P5,   KC_P6,   KC_PPLS,
     KC_LSFT, XXXXXXX, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,          KC_UP,   KC_P1,   KC_P2,   KC_P3,   XXXXXXX,
-    KC_LCTL, WIN_KEY, KC_LALT,                            KC_SPC,                             FUN_LAY, KC_RCTL, XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, KC_P0,   KC_PDOT, KC_PENT),
+    KC_LCTL, WIN_KEY, KC_LALT,                            KC_SPC,                             FUN_LAY, XXXXXXX, KC_RCTL, KC_LEFT, KC_DOWN, KC_RGHT, KC_P0,   KC_PDOT, KC_PENT),
 
 /* Keymap _MAC: Mac Layer 
 ____________________________________________________________________________________________________________________________________________________________________________
@@ -81,7 +81,7 @@ ________________________________________________________________________________
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,                   _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______, _______, _______, _______,
-    KC_LGUI, KC_LALT, KC_LCTL,                            _______,                            _______, KC_RGUI, _______, _______, _______, _______, _______, _______, _______),
+    KC_LGUI, KC_LALT, KC_LCTL,                            _______,                            _______, _______, KC_RGUI, _______, _______, _______, _______, _______, _______),
 
 /* Keymap _FUNC: Function Layer
 ____________________________________________________________________________________________________________________________________________________________________________
@@ -106,12 +106,12 @@ ________________________________________________________________________________
 */
 
 [_FUNC] = LAYOUT(
-      RESET, RGB_TOG,RGB_RMOD, RGB_MOD, RGB_M_P, RGB_M_B, RGB_M_R,RGB_M_SW,RGB_M_SN, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, MAC_TOG, MOU_TOG, KC_SLCK, RGB_SAD, RGB_SAI, KC_WHOM,
+    _______, RGB_TOG,RGB_RMOD, RGB_MOD, RGB_M_P, RGB_M_B, RGB_M_R,RGB_M_SW,RGB_M_SN, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, MAC_TOG, MOU_TOG, KC_SLCK, RGB_SAD, RGB_SAI, KC_WHOM,
     _______,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12, XXXXXXX,  KC_DEL, KC_SLCK, RGB_HUD, RGB_HUI, RGB_TOG,
     _______, _______, _______, _______, _______, RGB_SAD, RGB_SAI, _______, MAC_TOG, _______, KC_PSCR, KC_SLCK, KC_PAUS, KC_CALC,          KC_VOLD, KC_MUTE, KC_VOLU, RGB_VAD,
     _______, _______, _______, _______, _______, RGB_HUD, RGB_HUI, _______, KC_MSTP, KC_MPLY, KC_MPRV, KC_MNXT, _______,                   KC_MRWD, KC_MPLY, KC_MFFD, RGB_VAI,
     _______, XXXXXXX, BL_TOGG,  BL_DEC,  BL_INC, RGB_TOG, RGB_VAD, RGB_VAI, MOU_TOG, KC_MUTE, KC_VOLD, KC_VOLU, _______,          KC_PGUP, KC_MPRV, KC_MSTP, KC_MNXT, XXXXXXX,
-    _______, WIN_LCK, _______,                            _______,                            _______, KC_MENU, XXXXXXX, KC_HOME, KC_PGDN,  KC_END, DBL_ZER, _______, KC_CALC),
+    _______, WIN_LCK, _______,                            _______,                            _______, XXXXXXX,  KC_APP, KC_HOME, KC_PGDN,  KC_END, DBL_ZER, _______, KC_CALC),
 
 /* Keymap _MOUSE: Mouse Navigation Layer
 ____________________________________________________________________________________________________________________________________________________________________________
